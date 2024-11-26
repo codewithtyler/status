@@ -1,12 +1,6 @@
 owner: codewithtyler
 repo: status
 
-sites:
-  - name: Supabase ClickTrackr Database
-    url: $SUPABASE_HEALTH_URL
-    headers:
-      - "apikey: $SUPABASE_API_KEY"
-
 status-website:
   cname: status.eaglesightlabs.com
   baseUrl: /
